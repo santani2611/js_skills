@@ -35,19 +35,4 @@ console.log("l2",a);//l2 10
 
 
 
-// console.log("a",a);//a undedfined
-// var a;
-// console.log("a",a);//a undefined
-// a=5;
-// console.log("a",a);//a 5
-// fn();//in fn
-// function fn(){
-//     console.log("in fn");
-// }
-// fn();//in fn
-// fn1();// error
-// var fn1=function () {
-//     console.log("in fn1");
-// }
-// fn1();//in fn1
 
