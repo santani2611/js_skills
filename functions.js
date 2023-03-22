@@ -13,16 +13,17 @@ function sayHello(banda){
     console.log("hello javascript! help me know you!",banda);//hello javascript! help me know you! undefined
     return 'nacho';
 }
-let ans=sayHello();//
-console.log(ans);//nacho
+let ans=sayHello();//isme sayhello() ko call kiya bina koi para pass kiye toh para uf hoga
+console.log(ans);//isme sayHello() ki return value jo ki ek string hai nacho print hogi
 
-let a=function (b)
+let a=function (b)//ye ek function expresion hai yahan function ka koi nam nhi hai isiye function anonymous hai 
 {
+    //a jo ki variable ka naam hai usi naam se function ko call kar sakte ho
     return (b%2==0);
 }
-console.log(a(11));//false
+console.log(a(11));// variable ke naam se function ko call kiya
 
 function f(para){
     console.log("bacche mann ke kache",para)//bacche mann ke kache uf
 }
-console.log(f());//undefined
+console.log(f());//f() kuch return nhi karta isliye uf print hoga
